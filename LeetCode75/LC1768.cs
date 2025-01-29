@@ -9,7 +9,7 @@ namespace LeetCode75
     /// If a string is longer than the other, 
     /// append the additional letters onto the 
     /// end of the merged string. 
-    /// 
+    ///
     /// Return the merged string.
     /// </summary>
     internal class LC1768
