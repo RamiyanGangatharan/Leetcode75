@@ -18,6 +18,11 @@ Console.WriteLine("Leetcode Problem #1071: " + problem_2.GcdOfStrings(str1, str2
 
 // ---------------------------------------------------------------------------------------- //
 
+LC1431 problem_3 = new LC1431();
 
+int[] testArray = {2, 3, 5, 1, 3};
+int extraCandies = 1;
+
+Console.WriteLine("Leetcode Problem #1431: " + problem_3.KidsWithCandies(testArray, extraCandies);
 
 // ---------------------------------------------------------------------------------------- //
