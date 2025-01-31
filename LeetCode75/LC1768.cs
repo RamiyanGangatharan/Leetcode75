@@ -17,17 +17,7 @@ namespace LeetCode75
         public string MergeAlternately(string word1, string word2)
         {
             StringBuilder result = new();
-
-            int i = 0;
-            int j = 0;
-
-            // Loop through both strings checking whether one string is longer then the other
-            while (i < word1.Length || j < word2.Length)
-            {
-                if (i < word1.Length) { _ = result.Append(word1[i]); i++; }
-                if (j < word2.Length) { _ = result.Append(word2[j]); j++; }
-            }
-
+  
             return result.ToString(); // merged string
         }
     }
